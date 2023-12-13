@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #56ccf2, #2f80ed);
+}
+
+.glass-container {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: background 0.3s ease;
+}
+
+.glass-container:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    color: #fff;
+}
+
+input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    transition: background 0.3s ease;
+}
+
+input:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #2f80ed;
+    color: #fff;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #1c5da8;
+}
